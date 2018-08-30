@@ -19,7 +19,6 @@ READEX Runtime Library (RRL)
    
 ## Building and installation
 ```
-git clone git@gitlab.hrz.tu-chemnitz.de:READEX/Cluster_Prediction.git
 mkdir build && cd build  
 cmake .. -DCMAKE_INSTALL_PREFIX=<directory where the dynamic library should be installed> -DCMAKE_PREFIX_PATH=<papi installation root folder>
 make   
